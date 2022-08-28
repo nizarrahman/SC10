@@ -30,8 +30,8 @@ let setting = JSON.parse(fs.readFileSync('./apikey.json'))
 
 //limit
 limitawal = '10'
-botname = 'AzzBot•MD'
-wm = '© AzzBot - MD'
+botname = '*BOT PUNYA NIZAR*'
+wm = '© Nizar Rahman'
 
 // read database
 let tebaklagu = db.data.game.tebaklagu = []
@@ -670,7 +670,7 @@ Dont Forget Donate
 	let btn = [{
 urlButton: {
 displayText: 'Instagram',
-url: 'https://instagram.com/naando.jpeg'
+url: 'https://instagram.com/nizarrrahman.f_'
 }
 }]
 zets.send5ButImg(m.chat, anu, botname, global.sc, btn)
@@ -680,15 +680,15 @@ break
 case 'tqto': case 'partner': case 'credits': {
 	anu = `Terima kasih
 
-Yahya Ganzz
-⌕ https://github.com/AzzBott679
-⌕ https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g
+Nizar Rahman
+⌕ https://github.com/nizarrahman
+⌕ https://instagram.com/nizarrrahman.f_
 
 `
 	let btn = [{
 urlButton: {
 displayText: 'Instagram',
-url: 'https://instagram.com'
+url: 'https://instagram.com/nizarrrahman.f_'
 }
 }]
 zets.send5ButImg(m.chat, anu, botname, global.tq, btn)
@@ -1295,7 +1295,7 @@ await sleep(1500)
 let btn = [{
 urlButton: {
 displayText: 'Source Code',
-url: 'https://github.com/DikaArdnt/zets-Morou'
+url: 'https://instagram.com/nizarrrahman.f_'
 }
 }]
   let txt = `「 Broadcast Bot 」\n\n${text}`
@@ -1314,7 +1314,7 @@ m.reply(`Mengirim Broadcast Ke ${anu.length} Chat\nWaktu Selesai ${anu.length * 
 		let btn = [{
 urlButton: {
 displayText: 'Source Code',
-url: 'https://github.com/DikaArdnt/zets-Morou'
+url: 'https://instagram.com/nizarrrahman.f_'
 }
 }]
   let txt = `「 Broadcast Bot 」\n\n${text}`
@@ -1587,7 +1587,7 @@ var total = 0
 for (let o of _cmd) {
   total = total + o.count
 }
-var teks = `*ZETS BOT DASHBOARD*\n\n*HIT*\n• GLOBAL : ${total}\n• USER : ${totalUser}\n\n`
+var teks = `*BOT PUNYA NIZAR DASHBOARD*\n\n*HIT*\n• GLOBAL : ${total}\n• USER : ${totalUser}\n\n`
 teks += `*Most Command Global*\n`
 for (let u = 0; u < jumlahCmd; u ++) {
   teks += `• ${_cmd[u].nama} : ${_cmd[u].count}\n`
